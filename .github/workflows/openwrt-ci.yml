@@ -49,7 +49,7 @@ jobs:
           mkdir openwrt-packages
           cd openwrt-packages
           git clone https://github.com/destan19/OpenAppFilter.git
-          git clone https://github.com/fw876/helloworld.git
+#          git clone https://github.com/fw876/helloworld.git
           
           df -h
       - name: Update feeds
